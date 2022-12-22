@@ -22,14 +22,13 @@
 ### Insert one document
 `db.collection_name.insert({"attribute1" : "value_one", "attribute2", "vakue_two"})`
 
-### Insert multiple documents at once
+### Insert multiple documents at once.
 
 `db.collection_name.insertMany([
    {
       "attribute1": "Eiffel Tower",
       "attribute2": "Paris",
       "attribute3": "France"
-
     },
     {
         "attribute1": "Statue of Liberty",
@@ -45,8 +44,7 @@
         "attribute1": "CN Tower",
         "attribute2": "Toronto",
         "attribute3": "Canada"
-    }
-    ])`
+    }])`
 
 ### Count the number of documents in a collection 
 `db.collection_name.count()`
@@ -75,7 +73,7 @@
 ### Lists documents that match certain filter with only specific attribute/field 
 `db.collection_name.find({"attribute_name": "fileter_value"}, {"attribute_name": 1})`
 
-## Update documents based on a criteria. 
+
 ### Add a field to all the documents
 
 `db.collection_name.updateMany({What documents to field}, {$set:{what fields to set}})`
