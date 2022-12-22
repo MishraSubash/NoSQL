@@ -23,9 +23,8 @@
 `db.collection_name.insert({"attribute1" : "value_one", "attribute2", "vakue_two"})`
 
 ### Insert multiple documents at once.
-
-`db.collection_name.insertMany([
-   {
+`db.collection_name.insertMany
+    ([{
       "attribute1": "Eiffel Tower",
       "attribute2": "Paris",
       "attribute3": "France"
@@ -36,16 +35,11 @@
         "attribute3": "USA"
     },
     {
-        "attribute1": "Dharahara",
-        "attribute2": "Kathmandu",
-        "attribute3": "Nepal"
-    },
-    {
         "attribute1": "CN Tower",
         "attribute2": "Toronto",
         "attribute3": "Canada"
     }])`
-
+    
 ### Count the number of documents in a collection 
 `db.collection_name.count()`
 
