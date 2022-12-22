@@ -1,7 +1,7 @@
 # Collection of common IBM Cloudant NoSQL querris. 
 
 ## Retrive Data 
-### Retrive all data from the table. Equivalent to [SELECT * FROM TABLE] in SQL
+#### Retrive all data from the table. Equivalent to [*SELECT * FROM TABLE*] in SQL
 `{
    "selector": {}
 }`
