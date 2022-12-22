@@ -37,7 +37,7 @@
  }`
 
 #### Select only certain fields  in documents with _id less than 4
-{
+`{
     "selector": {
     "_id": {
           "$lt": "4"
@@ -104,7 +104,7 @@
 
 
 
-####Create a database 
+#### Create a database 
 `curl -X PUT $CLOUDANTURL/DB_name`
     * A response of {"ok":true} indicates that the database is successfully created*
 
