@@ -1,4 +1,4 @@
-### Some common basic MongoDB Queries 
+## Some common basic MongoDB Queries 
 
 ### Start MongoDB Server
 `start_mongo`
@@ -46,7 +46,7 @@
         "attribute2": "Toronto",
         "attribute3": "Canada"
     }
-])`
+    ])`
 
 ### Count the number of documents in a collection 
 `db.collection_name.count()`
