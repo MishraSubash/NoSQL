@@ -1,5 +1,5 @@
-## Some common MongoDB querries
-## # Count the number of documents in a collection 
+### Some common MongoDB querries
+## Count the number of documents in a collection 
 `db.collection_name.count()`
 
 
